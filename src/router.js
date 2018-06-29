@@ -30,7 +30,7 @@ export default new Router({
             path: "/my-model",
             name: "my-model",
             component: MyModel,
-            meta: { keepAlive: true }
+            meta: { keepAlive: false }
         },
         {
             path: "/my-slot",
